@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Welcome to Ultra Sound Nerve Segmentation using Deep Learning</title>
+</head>
+<body>
+ <header>
+    <nav>
+      <h1>WELCOME TO NERVE SEGMENTATION!</h1>
+    </nav>
+ </header>
+
+ <main>
+    <section class="container">
+      <h2>Ultrasound image</h2>
+      <input type="file" id="image-upload" accept=".tif" />
+      <div id="image-preview"></div>
+      <button id="select-btn">Select</button>
+      <button id="predict-btn">Predict</button>
+    </section>
+
+    <button id="refresh-btn">Refresh</button>
+ </main>
+
+ <script src="script.js"></script>
+</body>
+</html>

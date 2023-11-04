@@ -1,0 +1,66 @@
+body {
+    background-image: url('Brachial-Plexus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.95;
+   }
+   
+   header {
+    background-color: #333;
+    padding-top: 1rem;
+    margin-top: -10px;
+    margin-left: -13px;
+    margin-right: -8px;
+   }
+   
+   header h1 {
+    color: rgb(192, 180, 77);
+    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+   
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    background-color: rgba(49, 43, 43, 0.543);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+   }
+   
+   .container h2 {
+    margin-bottom: 1rem;
+    color: white;
+   }
+   
+   #image-upload {
+    margin-bottom: 1rem;
+   }
+   
+   #image-preview {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+   }
+   
+   button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+   }
+   
+   #refresh-btn {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+   }
